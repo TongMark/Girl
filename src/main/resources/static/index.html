@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>首页</title>
+</head>
+<script src="jquery.min.js" type="text/javascript" charset="utf-8"></script>
+
+<body>
+<h1>欢迎</h1>
+<a href="#">纸上得来终觉浅，绝知此事要躬行</a>
+</body>
+<script>
+    var id1 = 1
+    var girl = {'id': id1}
+    var girl1 ={id:id1};
+    var girl2 =[{id:1},{id:2}];
+    $.ajax({
+        type : "POST",
+        data : girl1,
+        url : "/girl/ajax",
+        success : function (data,status) {
+            console.log(status);
+        }
+    })
+</script>
+</html>

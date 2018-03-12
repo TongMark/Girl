@@ -1,2 +1,7 @@
 server:
-  port: 8081
+  port: 80
+#  ssl:
+#    key-store: classpath:test1.keystore
+#    key-store-password: 111111
+#    key-store-type: PKCS12
+#    key-alias: tomcat

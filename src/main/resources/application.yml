@@ -10,3 +10,14 @@ spring:
     username: root
     password: 1234
     url: jdbc:mysql://localhost:3306/dbgirl
+  freemarker:
+    allow-request-override: false
+    template-loader-path: /WEB-INF/view
+    cache: false
+    charset: utf-8
+    check-template-location: true
+    content-type: text/html
+    expose-request-attributes: true
+    expose-session-attributes: true
+    request-context-attribute: request
+    suffix: .html
